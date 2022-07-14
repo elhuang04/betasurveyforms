@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Intro & Basics: Forms</title>
+</head>
+<body> 
+
+    <h1>HTML Forms</h1>
+
+    <form>
+        <label for="username">enter username:</label>
+        <input type="text" id="username" name="username"placeholder="johnnyappleseed"required>
+        <br><br>
+        <label for="email">enter email:</label>
+        <input type="email" id="email" name="email"placeholder="johnnyappleseed@gmail.com"required>
+        <br><br>
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password"placeholder="your password"required>
+
+        <p>select your age:</p>
+
+        <input type="radio" name="age" value="0-25" id="option-1">
+        <label for="option-1">0-25</label>
+        <input type="radio" name="age" value="26-50" id="option-1">
+        <label for="option-1">26-50</label>
+        <input type="radio" name="age" value="50+" id="option-1">
+        <label for="option-1">50+</label>
+
+        <br><br>
+
+        <label for="question">secuirty question:</label>
+        <select name="question" id="question">
+            <option value="q1">what is your favorite food?</option>
+            <option value="q1">what is the name of your first pet?</option>
+            <option value="q1">what is your mother's maiden name?</option>
+            <option value="q1">what color are your favorite pair of socks?</option>
+        </select>
+
+        <br><br>
+
+        <label for="answer">security question answer:</label>
+        <input type="text" id="answer" name="answer">
+
+     <br><br>
+     <!-- labels MUST match your ids-->
+        <label for="bio">introduce yourself:</label>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+        <br><br>
+        <input type="submit" value="submit form">
+        <br><br>
+    </form>
+<!--use the name= attribute to group input fields (categorize options)-->
+</body>
+</html>
