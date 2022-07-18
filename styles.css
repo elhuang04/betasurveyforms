@@ -1,0 +1,30 @@
+h1{
+    background-color:#FFFC8D
+    color:black;
+    font-size: 24px;
+    font-family: Helvetica;
+    text-align:left;
+}
+    h3{
+   
+    color:#C516C3;
+    font-size: 16px;
+    font-family:'Courier New';
+    text-align:left;
+    line-height: 30px;
+    letter-spacing: 2px;
+    column-count:3
+    column-gap 10px;
+}
+body{
+   
+    margin-left:25px;
+    color:black;
+    font-size: 14px;
+    font-family: Helvetica;
+    text-align:left;
+}
+div{background-color:#FFFC8D;
+;
+}
+)
